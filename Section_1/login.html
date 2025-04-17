@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+
+    <link
+        href="https://fonts.googleapis.com/css?family=Roboto:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic"
+        rel="stylesheet" />
+
+    <style>
+        .card {
+            /* border: 2px solid red; */
+            width: 20%;
+            border-radius: 10px;
+            padding: 30px;
+            box-sizing: border-box;
+            box-shadow: 2px 3px 5px 2px #00000075;
+            background-color: white;
+        }
+
+        .form-title {
+            text-align: center;
+            font-family: Roboto;
+        }
+
+        .text-input {
+            width: 100%;
+            padding: 10px;
+            box-sizing: border-box;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            border: 1px solid #999;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-image: url('https://wallpapers.com/images/hd/minimalist-background-o4thunr26czh1ln5.jpg');
+            background-size: cover;
+        }
+
+        .submit-btn {
+            background-color: blueviolet;
+            color: white;
+            width: 100%;
+            padding: 10px 20px;
+            border-radius: 5px;
+            border: none;
+            margin-top: 20px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="card">
+
+        <h2 class="form-title">Login Form</h2>
+
+        <form>
+            <label for="email">Email Address</label>
+            <input class="text-input" type="email" id="email">
+
+            <label for="password">Password</label>
+            <input class="text-input" type="password" id="password">
+
+            <button class="submit-btn">Submit</button>
+
+        </form>
+
+    </div>
+
+</body>
+
+</html>
